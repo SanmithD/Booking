@@ -16,6 +16,9 @@ app.use(cors())
 app.use(bodyParser.json());
 
 //api's
+app.get('/',(req, res)=>{
+    res.send("Hello welcome to booking")
+});
 app.use('/api/auth', userRouter);
 app.use('/api/booking', bookRouter );
 app.use('/api/activity', activityRouter );
