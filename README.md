@@ -51,14 +51,14 @@ cd server
 npm install
 ```
 ### 3. Sign up
-Name
-Email
-Phone_number
-Password
+Name <br/>
+Email <br/>
+Phone_number <br/>
+Password <br/>
 
 ### 4. Login
-Email
-Password
+Email <br/>
+Password <br/>
 
 ### 5. Set Generated token
 
